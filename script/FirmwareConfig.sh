@@ -38,5 +38,3 @@ cat "$CI_ConfigPath/GeneralConfig" >>"$WRT_ConfigPath"
 
 # 添加设备平台配置
 cat "$CI_ConfigPath/Platform/$WRT_CONFIG" >>"$WRT_ConfigPath"
-
-echo 'src-git daed https://github.com/QiuSimons/openwrt-dae' >> feeds.conf.default
